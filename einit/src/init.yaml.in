@@ -1,0 +1,12 @@
+entities:
+
+-   task: hello.Hello 
+    name: hello.Hello
+    path: Hello
+    connections:
+    -   target: vfs_task
+        id: kl.VfsEntity
+
+-   task: vfs_task
+    name: kl.VfsRamFs
+    path: VfsRamFs
