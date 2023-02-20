@@ -11,7 +11,7 @@ use EDL Einit
 use EDL kl.core.Core
 
 use EDL hello.Hello
-use EDL kl.VfsRamFs
+use EDL kl.VfsRamFs     /* allows implicit "grant all" for VfsRamFs */
 
 @INIT_EXTERNAL_ENTITIES@
 

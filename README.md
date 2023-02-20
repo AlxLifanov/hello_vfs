@@ -1,6 +1,9 @@
-### Hello World (hello) example.
-Example of a minimal possible program.
-For details please refer to the [documentation](https://click.kaspersky.com/?hl=en-us&link=online_help&pid=kos&version=1.1).
+### Hello World Modified
+This is the supplementary example code for [KasperskyOS educational course at Stepik.org](https://stepik.org/73418?utm_source=github&utm_medium=hello_vfs).
+
+The process of basic example modification is explained in course Part 2.
+
+This example is tested with KasperskyOS Community Edition SDK v.1.1.1.
 
 ### Prerequisites
 Before you begin, ensure that you have met the following requirements:
@@ -10,4 +13,5 @@ Before you begin, ensure that you have met the following requirements:
 ### Usage
 To build the example and run the resulting image use the cross-build.sh script.
 
+© 2023 AlxLifanov
 © 2022 AO Kaspersky Lab

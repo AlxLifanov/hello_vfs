@@ -28,4 +28,3 @@ build_kos_qemu_image (kos-qemu-image
                       SECURITY_PSL ${SECURITY_PSL_FILE}
                       ${ENTITIES})
 
-#set_target_properties (EinitQemu PROPERTIES LINK_FLAGS "-no-pie -Ttext 0x00200000")

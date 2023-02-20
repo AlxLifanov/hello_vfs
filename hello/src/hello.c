@@ -16,14 +16,15 @@ int main(int argc, const char *argv[])
     int fdLog = -1;
     char buffer[TEST_MESSAGE_LEN + 1];
 
+    // try to open file for writing = check file VFS presence    
     if ((fdLog = open("/secure.log", O_WRONLY | O_CREAT)) < 0 )
     {
         fprintf(stderr,"Error: can't create log!\n");
     }
-
     write(fdLog, TEST_MESSAGE, TEST_MESSAGE_LEN);
     close(fdLog);
 
+    // close for writing, open for reading
     fdLog = open("/secure.log", O_RDONLY);
     read(fdLog, buffer, TEST_MESSAGE_LEN);
     buffer[TEST_MESSAGE_LEN] = '\0';
