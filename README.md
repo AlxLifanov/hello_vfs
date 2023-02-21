@@ -13,6 +13,6 @@ Before you begin, ensure that you have met the following requirements:
 ### Usage
 To build the example and run the resulting image use the cross-build.sh script.
 
-© 2023 AlxLifanov
+© 2023 AlxLifanov  
 © 2022 AO Kaspersky Lab
 ![image](https://mc.yandex.ru/pixel/4800619149800149888?rnd=%aw_random%)
